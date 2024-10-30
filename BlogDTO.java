@@ -20,12 +20,12 @@ public class BlogDTO {
     private String image;
     private String description;
     private Date createDate;
-    private int status;
+    private boolean status;
 
     public BlogDTO() {
     }
 
-    public BlogDTO(int blogID, int staffID, String title, String image, String description, Date createDate, int status) {
+    public BlogDTO(int blogID, int staffID, String title, String image, String description, Date createDate, boolean status) {
         this.blogID = blogID;
         this.staffID = staffID;
         this.title = title;
@@ -83,11 +83,11 @@ public class BlogDTO {
         this.createDate = createDate;
     }
 
-    public int getStatus() {
+    public boolean isStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(boolean status) {
         this.status = status;
     }
 
