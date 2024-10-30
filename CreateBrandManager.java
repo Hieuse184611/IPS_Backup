@@ -65,7 +65,6 @@ public class CreateBrandManager extends HttpServlet {
                 Thumbnails.of(filePart.getInputStream())
                         .size(IMAGE_WIDTH, IMAGE_HEIGHT)
                         .toFile(outputFile);
-
                 filePart.write(path + File.separator + fileName);
 
                 // Gọi DAO để thêm brand vào database
