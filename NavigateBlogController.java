@@ -39,12 +39,6 @@ public class NavigateBlogController extends HttpServlet {
             } else {
                 request.setAttribute("ERROR", "No blogs found.");
             }
-//            List<BlogDTO> detailBlog = blogDAO.getBlogByID(0);
-//            if (detailBlog != null && !detailBlog.isEmpty()) {
-//                request.setAttribute("BLOG_DETAIL", detailBlog);
-//            } else {
-//                request.setAttribute("ERROR", "No blogs found.");
-//            }
             url = SUCCESS;
         } catch (Exception e) {
             log("Error at NavigateBlogController: " + e.toString());

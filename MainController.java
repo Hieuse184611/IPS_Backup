@@ -126,13 +126,15 @@ public class MainController extends HttpServlet {
 
     private static final String CREATE_BLOG_MANAGER = "CreateBlogManager";
     private static final String CREATE_BLOG_MANAGER_CONTROLLER = "CreateBlogManagerController";
+    
     private static final String UPDATE_BLOG_MANAGER = "UpdateBlogManager";
-    private static final String UPDATE_BLOG_MANAGER_CONTROLLER = "CreateBlogManagerController";
+    private static final String UPDATE_BLOG_MANAGER_CONTROLLER = "UpdateBlogManagerController";
+    
     private static final String DELETE_BLOG_MANAGER = "DeleteBlogManager";
     private static final String DELETE_BLOG_MANAGER_CONTROLLER = "DeleteBlogManagerController";
     
     private static final String SHOW_ALL_BLOG_MANAGER = "ShowAllBlogManager";
-    private static final String SHOW_ALL_BLOG_MANAGER_CONTROLLER = "ShowAllBlogManagerController";
+    private static final String SHOW_ALL_BLOG_MANAGER_CONTROLLER = "ShowAllBlogManager";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
